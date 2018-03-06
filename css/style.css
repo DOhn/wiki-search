@@ -1,0 +1,72 @@
+body {
+	background-color: #555;
+}
+
+a {
+	color: #89f3ef;
+}
+
+.topic, .info {
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.white-text {
+	color: white;
+}
+
+.featurette-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+.featurette .search {
+    padding: 5%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.no-margin-top {
+    margin-top: 0
+}
+
+.form-control-lg {
+    min-height: 46px;
+    border-radius: 6px;
+    font-size: 18px;
+    line-height: normal;
+}
+
+.featurette {
+    display: table;
+    width: 100%;
+    height: 20%;
+    vertical-align: middle;
+    color: #fff;
+}
+
+@media (min-width:400px) { 
+    .featurette .search.has-button .form-group {
+        position: relative;
+        padding-right: 150px;
+    }
+    .featurette .search.has-button #random-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: auto;
+        margin: 0;
+    }
+	    .featurette .search.has-button #search-btn {
+        position: absolute;
+        top: 0;
+       	right: 75px;
+        width: auto;
+        margin: 0;
+    }
+}
+
+.container-fluid {
+	background: #777;
+	padding: 5px;
+	width: 90%;
+	horizontal-align: middle;
+}
